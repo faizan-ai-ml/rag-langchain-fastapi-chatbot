@@ -1,12 +1,23 @@
 # RAG Knowledge Chatbot
-Author: Faizan Haider — AI Engineer
+**Author:** Faizan Haider
 
-One-line: Retrieval-Augmented Generation chatbot using LangChain, FAISS, FastAPI, and React.
+🚀 **Project Goal**  
+A Retrieval-Augmented Generation (RAG) chatbot that can read documents, store them in a vector database, and answer user questions based on that knowledge.
 
-Contents:
-- backend: FastAPI + rag pipeline
-- frontend: React + Tailwind UI
-- infra: Docker, GitHub Actions
-- data: sample docs
+**Tech Stack**
+- **Backend:** FastAPI + LangChain + FAISS + Sentence Transformers
+- **Frontend:** React + Tailwind (planned)
+- **Database:** SQLite (for logs)
+- **Deployment:** Docker + Render (free tier)
+- **CI/CD:** GitHub Actions
 
-License: MIT
+**Features**
+- Document upload & processing
+- Vector search with FAISS
+- Context-aware answers using a free LLM (Flan-T5)
+- Chat UI (to be built)
+- Free-tier deployment (no paid APIs)
+
+---
+
+## 📂 Repo Structure
